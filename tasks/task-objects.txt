@@ -1,0 +1,9 @@
+employee.js
+employee
+	value properties: name, id, basic, da, hra, totalSalary
+	functional property: calculateSalary()
+
+index.js
+create an array to store few employee objects
+
+filter the array where employee salary is greater than some predefined value
