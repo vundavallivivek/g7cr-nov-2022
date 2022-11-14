@@ -19,16 +19,17 @@ console.log(this)
 //3. fn()
 'use strict'
 function person(name, id, salary) {
-    this.pName = name
-    this.pId = id
-    this.pSalaray = salary
+    this.name = name
+    this.id = id
+    this.salary = salary
     this.display = function () {
-        return this.pName
+        return this.name
     }
     console.log(this)
 }
 const joydipObj = new person('joydip', 1, 1000)
 const anilObj = new person('anil', 2, 2000)
 
-console.log(joydipObj.pName)
-console.log(anilObj.pSalaray)
+console.log(joydipObj.name)
+console.log(anilObj.salary)
+console.log(joydipObj.display())
