@@ -1,0 +1,24 @@
+{
+  "name": "payroll-app-browser",
+  "version": "1.0.0",
+  "description": "simple modular app",
+  "scripts": {
+    "compile": "babel source --watch --out-dir build",
+    "load": "lite-server",
+    "start": "concurrently \"yarn compile\" \"yarn load\" "
+  },
+  "keywords": [],
+  "author": "joydip",
+  "license": "ISC",
+  "dependencies": {
+    "requirejs": "^2.3.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.2",
+    "@babel/plugin-transform-modules-amd": "^7.19.6",
+    "@babel/preset-env": "^7.20.2",
+    "concurrently": "^7.5.0",
+    "lite-server": "^2.6.1"
+  }
+}
