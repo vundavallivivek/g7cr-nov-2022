@@ -1,0 +1,28 @@
+module: a file (ts/js etc.)
+
+module format:
+a. common js format(defult module format for node js)
+	module.exports = {prop1:member1,.....}
+ 	const ex = require('./....')
+
+b. ES6 module format
+	export member1
+	import {} from './....'
+
+c. AMD (asynchronous module definition format)
+	define(['require','./...'], function(){
+		const add = (a,b)=>a+b
+		_.exports = {addFn:add}
+	})
+
+d. UMD (universal module definition format)
+
+module loader:
+common js modular
+requirejs
+
+
+transpiler: 
+JS => babel
+TS => typescript (tsc)
+
