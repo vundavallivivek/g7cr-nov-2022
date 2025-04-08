@@ -5,5 +5,6 @@ employee
 
 index.js
 create an array to store few employee objects
+print("vivek")
 
 filter the array where employee salary is greater than some predefined value
